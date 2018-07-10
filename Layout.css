@@ -1,0 +1,55 @@
+body{
+	background: #eee;
+	padding: 0px;
+	margin: 0px;
+	float:left;
+}
+#container{
+  	position: relative;
+}
+#world{
+	height: 100%;
+  	width: 100%;
+	border: 2px solid #000000;
+}
+#win_msg{
+    width: 45%;
+    height: 120px;
+	padding: 5px;
+	border: 5px solid #cbcbcb;
+	background-color: #d4d6d8;
+	text-align: center;
+	bottom: 50%;
+  	left: 30%;
+  	position: absolute;
+
+}
+#turns{
+	font-size: 30px;
+	margin-left: 40%;
+}
+#reset {
+	margin-top: 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#exit {
+    background-color: #c43636;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#won{
+font-size: 35px;
+}
+
